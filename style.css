@@ -36,6 +36,7 @@ a {
     font-size: 18px;
     text-decoration: none;
     color: #E5E7EB;
+    min-width: 0px;
 }
 .hero {
     display: flex;
@@ -140,16 +141,18 @@ flex-wrap: wrap;
     align-self: flex-end;
 }
 .call-to-action {
-    padding: 48px 240px;
     color: #f9faf8;
+    padding: 48px 0px;
 }
 .call-to-action-box {
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
     background-color: #3882f6;
-    border-radius: 4px;
-    padding: 48px;
+    border-radius: 10px;
+    padding: 24px;
+    max-width: 80%;
+    margin: 0 auto;
 }
 .call-to-action-text {
     display: flex;
@@ -162,6 +165,7 @@ flex-wrap: wrap;
     border-color: #f9faf8;
     padding: 8px 16px;
     margin-top: 16px;
+    min-width: 0px;
 }
 .action-title {
     font-weight: bold;
